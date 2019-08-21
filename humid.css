@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two|Spinnaker&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'Spinnaker';
+    font-size: 1.2em;
+    text-align: center;
+    color: rgb(66, 65, 65);
+    
+}
+section {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background: url(../11-Web/blur-branches-daylight-355296.jpg) no-repeat 50% 50%;
+    display: table;
+    top: 0;
+    background-size: cover;
+}
+
+.navbar {
+    padding: .8rem;
+    color:  rgb(66, 65, 65);
+    background-color: #e40a70;
+}
+.navbar-nav a {
+    padding-right: 20px;
+    padding-left: 55px;
+}
+.nav-link {
+    font-size: 0.9em;
+    font-weight: 600;
+    color: rgb(66, 65, 65);
+}
+
+h1 {
+    font-style: italic;
+    font-weight: 700;
+    font-size: 3em;
+    text-align: center;
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.2), 0px -5px 35px rgba(255,255,255,0.3);
+    padding-bottom: 70px;
+
+}
+img {
+    box-shadow: rgba(0,0,0,0.2) 0px 2px 3px, inset rgba(0,0,0,0.2) 0px -1px 2px;
+    border-radius: 20px;
+    margin-right: 40%;
+ }
+p {
+    margin-right: 10%;
+    margin-left: 20%;
+    font-weight: 700;
+    font-size: 1em;
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.2), 0px -5px 35px rgba(255,255,255,0.3);
+    
+}
+
+
+/*---media queries --*/
+@media (max-width: 992px) {
+
+}
+@media (max-width: 768px) {
+    
+}@media (max-width: 576px) {
+    
+}
+/*---fixed background image--*/
+}
+figure{
+    position: relative;
+    width: 100%;
+    height: 60%;
+    margin: 0!important;
+}
+
+}
+/*---bootstrap padding fix--*/
+[class*="col-"] {
+    padding: 1rem;
+}
+ 
+
+
+/*
+extra small (xs) devices (portrait phones, less that 576px)
+no media query since this is default in bootstrap
+
+small (sm) devices (landscape phones, 576px and up)
+@media (min-width 576px) { ... }
+
+medium (md) devices (tablets, 768px and up)
+@media (min-width 768px and up) { ... }
+
+large (lg) devices (desktops, 992pc and up)
+@media (min-width: 992px) { ... }
+
+extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
